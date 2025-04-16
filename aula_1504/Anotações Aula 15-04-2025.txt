@@ -1,0 +1,16 @@
+1) SELECT * FROM CURSOS ORDER BY HORAS_DURACAO DESC, NOME_CURSO;
+
+Ordenação Orde by e Desc.
+
+Obs.: Como é ponteiro ele vai selecionar o primeiro que aparecer. 
+
+describe CURSOS
+
+2) SELECT * FROM CURSOS WHERE HORAS_DURACAO > 800 ORDER BY NOME_CURSO;
+
+
+3) SELECT NOME_CURSO FROM CURSOS
+   WHERE NOME_CURSO LIKE 'E%'
+   OR NOME_CURSO LIKE 'e%'
+   AND HORAS_DURACAO > 500
+
